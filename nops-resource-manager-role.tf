@@ -14,6 +14,7 @@ locals {
     "compute.commitments.update",
     "compute.commitments.updateReservations",
     "compute.regionOperations.get",
+    "compute.reservations.create",
     "monitoring.timeSeries.list",
     "serviceusage.quotas.get",
     "serviceusage.quotas.update",

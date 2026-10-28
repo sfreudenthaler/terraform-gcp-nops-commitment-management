@@ -121,6 +121,7 @@ The custom role **nOps Resource Manager** (`nOpsResourceManager`) includes the f
 | | `compute.commitments.update` |
 | | `compute.commitments.updateReservations` |
 | | `compute.regionOperations.get` |
+| | `compute.reservations.create` |
 | **Monitoring** | `monitoring.timeSeries.list` |
 | **Quotas (Service Usage)** | `serviceusage.quotas.get` |
 | | `serviceusage.quotas.update` |

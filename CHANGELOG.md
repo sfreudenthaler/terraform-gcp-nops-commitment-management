@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.1] - 2026-10-27
+
+### Fixed
+
+- **`compute.reservations.create` missing from nOps Resource Manager role** — Added to `nOpsResourceManager`. The nOps console's Commitment Management **Check** requires it on the custom role and on the CUD purchase project; without it, *Create Custom Role (Organization)* and *Project IAM* fail validation. Closes #1.
+
 ## [2.2.0] - 2026-07-24
 
 ### Removed
